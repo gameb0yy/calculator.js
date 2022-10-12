@@ -32,6 +32,21 @@ class Calculator {
     return this;
   }
 
+  power(value) {
+    this.total **= value;
+    return this;
+  }
+
+  exponent(value) {
+    this.total = Math.exp(value);
+    return this;
+  }
+
+  modulo(value) {
+    this.total %= value;
+    return this;
+  }
+
   getTotal() {
     return this.total;
   }
