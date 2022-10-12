@@ -1,0 +1,28 @@
+{
+  "name": "calculator-js",
+  "version": "1.0.0",
+  "description": "A Simple Calculator",
+  "main": "./build/calculator.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "prod": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gameb0yy/calculator.js.git"
+  },
+  "author": "Gameb0yy",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/gameb0yy/calculator.js/issues"
+  },
+  "homepage": "https://github.com/gameb0yy/calculator.js#readme"
+}
